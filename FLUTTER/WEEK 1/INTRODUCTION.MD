@@ -49,6 +49,17 @@ Flutter can be used in any of the editors like *Android Studio or VS code*, in t
    * After the cloning is done, go to folder *src* > Flutter > *Flutter console* > type `flutter doctor` and press enter to verify whether flutter is working or not.
      * The Flutter console can be used for running Flutter commands.
    * If you get a green tick then you have installed Flutter correctly. 
+ 
+ ### SETUP ANDROID STUDIO
+ 
+ 1. Open Android Studio Application.
+ 1. Go to Configure > AVD Manager > Create Virtual Device > Nexus 6 > Next > Pie > Next.
+ 1. Change Graphics to HARDWARE -GLES 2.0 > FINISH.
+ 1. Go to Configure > Plugins > Marketplace > Search Flutter > Install > Yes > Restart IDE > Restart.
+ 1. Click *Start new Flutter project* > Flutter Application > Next > Project_name > Project_location > Next > Company domain > Finish.
+ 
+ 1. To run the sample code given default in it:
+    * Click *no devices* on the top > click Emulator > Run.  
 
    
 

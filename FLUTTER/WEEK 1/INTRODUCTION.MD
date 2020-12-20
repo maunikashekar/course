@@ -28,7 +28,7 @@ Flutter can be used in any of the editors like *Android Studio or VS code*, in t
 1. Download Git from [here](https://git-scm.com/downloads) according to your system's operating system and install it.
    * Git is a version control system and is used for tracking changes in our code. 
 
-1. Download Flutter for [here](https://flutter.dev/docs/get-started/...) according to your system's operating system.
+1. Download Flutter for [here](https://flutter.dev/docs/get-started/install) according to your system's operating system.
 
 1. Installation of Flutter SDK-
    * Do not install Flutter in a directory like `C:\Program Files` because it requires elevated privileges. 

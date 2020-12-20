@@ -34,11 +34,22 @@ Flutter can be used in any of the editors like *Android Studio or VS code*, in t
    * Do not install Flutter in a directory like `C:\Program Files` because it requires elevated privileges. 
    * Instead we can create a folder called src in the C drive and install Flutter in it.
    * To clone the git, open *cmd*.
-   * If your cmd's path looks similar to the below one and your system name instead of *Name*.
+   * If your cmd's path looks similar to the one below.
    ```
    C:\Users\Name
    ```
-   * Then type this `cd..` and press enter.
+   * Then type `cd..` and press enter.
+   * Do the above step once again.
+   * You will be left with `C:` as your path.
+   * Type `cd src` and press enter to go to that folder.
+   * To clone git, type the below line and press enter.
+   ```
+   git clone -b stable https://github.com/flutter/flutter.git
+   ```
+   * After the cloning is done, go to folder *src* > Flutter > *Flutter console* > type `flutter doctor` and press enter to verify whether flutter is working or not.
+     * The Flutter console can be used for running Flutter commands.
+   * If you get a green tick then you have installed Flutter correctly. 
+
    
 
 

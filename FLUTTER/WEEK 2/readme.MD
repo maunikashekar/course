@@ -205,7 +205,7 @@ It is invoked at the time of object creation.
 
 ```
 classname(list of paramaters){
-statemnets;
+statements;
 }
 ```
 

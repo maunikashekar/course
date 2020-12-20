@@ -239,3 +239,54 @@ hi
 13
 hello
 ```
+#### INHERITANCE
+
+It is property to derive properties of the baseclass to subclass(class which extends).There are many types of inheritance in object oriented programming.
+
+The syntax-
+
+```
+class subclassname extends baseclass{
+statements;
+}
+```
+Ex-
+
+```
+void main() {
+  c1 c=c1('hi',13);
+  print(c.a);
+  print(c.b);
+  c.get();
+  c2 ce=c2('go',10);
+  ce.put();
+}
+
+class c1{   \\baseclass
+  String a;
+  int b;
+  c1(String a,int b)
+  {
+    this.a=a;
+    this.b=b;
+  }
+  void get(){
+    print('hello');
+  }
+}
+
+class c2 extends c1{    \\subclass
+  c2(String a,int b): super(a,b);
+   void put(){
+    print('hell');
+  }
+}
+```
+The above code will give the following output-
+
+```
+hi
+13
+hello
+hell
+```

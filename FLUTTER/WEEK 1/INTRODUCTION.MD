@@ -18,7 +18,30 @@ Flutter is a mobile User Interface framework for creating [native apps](https://
   * Classes
   * Functions and methods
   * Variables
-  
+ 
+### INSTALLATION
+
+Flutter can be used in any of the editors like *Android Studio or VS code*, in this course I will be using Android Studio but if you prefer to use VS code then refer to [this](https://www.c-sharpcorner.com/blogs/create-a-first-flutter-app-in-visual-studio-code).
+
+1. Download Android Studio from [here](https://developer.android.com/studio).
+
+1. Download Git from [here](https://git-scm.com/downloads) according to your system's operating system and install it.
+   * Git is a version control system and is used for tracking changes in our code. 
+
+1. Download Flutter for [here](https://flutter.dev/docs/get-started/...) according to your system's operating system.
+
+1. Installation of Flutter SDK-
+   * Do not install Flutter in a directory like `C:\Program Files` because it requires elevated privileges. 
+   * Instead we can create a folder called src in the C drive and install Flutter in it.
+   * To clone the git, open *cmd*.
+   * If your cmd's path looks similar to the below one and your system name instead of *Name*.
+   ```
+   C:\Users\Name
+   ```
+   * Then type this `cd..` and press enter.
+   
+
+
 
 
   
